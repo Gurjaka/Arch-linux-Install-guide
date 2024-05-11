@@ -40,7 +40,9 @@ Create a new partition with the `n` command. You must enter an GPT/MBR partiti
 
 #### UEFI with [GPT](https://wiki.archlinux.org/title/GPT "GPT") Suggested sizes for partition types:
 EFI system partition - 1GiB.
+
 Linux swap - At least 4 GiB.
+
 Linux x86-64 root(/) - Remainder of the device. At least 23-32GiB.
 
 #### 1.3) Change partition type
