@@ -30,7 +30,6 @@ For partitioning I prefer to use "fdisk":
 ```
 fdisk -l
 fdisk /dev/the_disk_to_be_partitioned
-
 ```
 
 #### 1.1) Create new table
@@ -127,7 +126,7 @@ arch-chroot /mnt
 Set the [time zone](https://wiki.archlinux.org/title/Time_zone "Time zone"):
 
 ```
-ln -sf /usr/share/zoneinfo/_Region_/_City_ /etc/localtime
+ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 ```
 
 Run [hwclock(8)](https://man.archlinux.org/man/hwclock.8) to generate `/etc/adjtime`:
@@ -184,6 +183,7 @@ export EDITOR=nano # Set nano as default text editor
 visudo # Get acces to sudoers file
 
 # add a new line
+
 'account name' ALL=(ALL) ALL # Gain sudo access
 ```
 
