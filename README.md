@@ -1,4 +1,4 @@
-## Welcome to arch linux installation cheat sheet
+## Welcome to arch linux installation Simplified guide
 
 # Pre-installation
 ### 1.0) Set the console keyboard layout and font
